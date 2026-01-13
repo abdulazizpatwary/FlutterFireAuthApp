@@ -1,16 +1,57 @@
-# firebase_auth
+#  Flutter Firebase Authentication App
 
-A new Flutter project.
+A simple Flutter app that demonstrates **Firebase Authentication** using:
 
-## Getting Started
+-  Google Sign-In  
+-  Email & Password Sign-Up  
+-  Email & Password Login  
+-  Logout  
+-  User profile photo display  
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##  Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Google authentication using `google_sign_in`
+- Firebase authentication using `firebase_auth`
+- Create account with email & password
+- Login with email & password
+- Logout (Google & Email)
+- Displays user profile photo (with fallback image)
+
+---
+
+##  Screens
+
+| Feature | Description |
+|--------|-------------|
+| Google Sign-In | Sign in using your Google account |
+| Email Sign-Up | Create a new Firebase account |
+| Email Login | Login using email & password |
+| Logout | Sign out from Firebase |
+| Profile Photo | Shows Google profile picture or default image |
+
+---
+
+##  Technologies Used
+
+- Flutter  
+- Firebase Authentication  
+- Firebase Core  
+- Google Sign In  
+
+---
+
+##  Dependencies
+- firebase_core: latest
+- firebase_auth: latest
+- google_sign_in: latest
+
+---
+
+## Author
+**Abdul Aziz Patwary (Aziz)**  
+Flutter & Android Developer
+
+
